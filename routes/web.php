@@ -43,11 +43,30 @@ Route::get('/adminhome',function(){
 Route::get('/addprof2','ViewProf@check');
 //End Professeur Routes  
 //begin upload files
+Route::get('/home',"select_multi@index");
+
 Route::get('/select_multi',"select_multi@index");
+
 
 Route::post('/add_cour',"select_multi@ajouter_cours");
 
 
 Route::get('/showFiles',"select_multi@showFiles");
 //end upload files
+
+Route::post('/select_multi/fetch', 'select_multi@fetch')->name('select_multi.fetch');
+
+Route::post('/select_multi/getSemestre','select_multi@getSemestre')->name('select_multi.getSemestre');
+
+Route::post('/etudiant_controller/getModule', 'etudiant_controller@getModule')->name('etudiant_controller.getModule');
+
+Route::post('/etudiant_controller/getCours', 'etudiant_controller@getCours')->name('etudiant_controller.getCours');
+//start etudiant route
+
+Route::get('/etudiant_home',"etudiant_controller@getSemesters");
+//Route::get('/etudiant_home',"etudiant_controller@getModule/{id}");
+
+//star user
+Route::get('/verifuser',"HomeController@verifuser");
+//end user
 

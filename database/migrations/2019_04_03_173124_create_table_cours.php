@@ -17,6 +17,7 @@ class CreateTableCours extends Migration
             $table->bigIncrements('id');
             $table->string('libelle');
             $table->string('description');
+            $table->string('image');
             $table->unsignedBigInteger('id_module');
             $table->foreign('id_module')->references('id')->on('module');
             $table->unsignedBigInteger('id_prof');

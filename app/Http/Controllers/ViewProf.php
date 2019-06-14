@@ -39,7 +39,10 @@ class ViewProf extends Controller
             echo "good work";
              // return redirect('addprof');
             echo '<a href = "/addprof">Click Here</a> to go back.';
-    } else {
+    }elseif ($check === "etudiant") {
+        return redirect('/etudiant.etudiant_home');
+    }
+     else {
         
         print_r($check);
         Auth::logout();

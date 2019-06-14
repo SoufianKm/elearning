@@ -16,6 +16,7 @@ class CreateTableExercices extends Migration
         Schema::create('exercice', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('libelle');
+            $table->string('image');
             $table->string('description');
             $table->unsignedBigInteger('id_cours');
             $table->foreign('id_cours')->references('id')->on('cours');

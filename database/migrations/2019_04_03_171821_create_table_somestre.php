@@ -13,7 +13,7 @@ class CreateTableSomestre extends Migration
      */
     public function up()
     {
-        Schema::create('somestre', function (Blueprint $table) {
+        Schema::create('somestres', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('libelle');
            

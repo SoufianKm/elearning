@@ -13,7 +13,7 @@ class CreateModuleTable extends Migration
      */
     public function up()
     {
-        Schema::create('module', function (Blueprint $table) {
+        Schema::create('modules', function (Blueprint $table) {
             $table->bigIncrements('id');
              $table->string('libelle');
             $table->unsignedBigInteger('id_prof');

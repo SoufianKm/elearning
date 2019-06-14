@@ -21,6 +21,9 @@ class CreateTableEtudiants extends Migration
             $table->text('adresse');
             $table->string('tel',10);
             $table->string('photo');
+
+            $table->unsignedBigInteger('id_filliere');
+            $table->foreign('id_filliere')->references('id')->on('filliere');
             
             $table->unsignedBigInteger('id_user');
             $table->foreign('id_user')->references('id')->on('users');
