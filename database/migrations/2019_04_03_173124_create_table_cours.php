@@ -19,7 +19,7 @@ class CreateTableCours extends Migration
             $table->string('description');
             $table->string('image');
             $table->unsignedBigInteger('id_module');
-            $table->foreign('id_module')->references('id')->on('module');
+            $table->foreign('id_module')->references('id')->on('modules');
             $table->unsignedBigInteger('id_prof');
             $table->foreign('id_prof')->references('id')->on('professeur');
             $table->timestamps();
