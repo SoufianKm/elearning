@@ -106,21 +106,7 @@
 
                             </div>
 
-                            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="500">
-                              <form action="" method="post" class="form-box">
-                                <h3 class="h4 text-black mb-4">Connecter vous !</h3>
-                                <div class="form-group">
-                                  <input type="text" class="form-control" placeholder="Votre identifiant...">
-                                </div>
-                                <div class="form-group">
-                                  <input type="password" class="form-control" placeholder="mote de passe...">
-                                </div>
-                                <div class="form-group">
-                                  <input type="submit" class="btn btn-success btn-pill" value="connexion">
-                                </div>
-                              </form>
-
-                            </div>
+                            
                           </div>
                         </div>
                         
@@ -386,7 +372,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-4">
-                <h3>About OneSchool</h3>
+                <h3>About E-Learning</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro consectetur ut hic ipsum et veritatis corrupti. Itaque eius soluta optio dolorum temporibus in, atque, quos fugit sunt sit quaerat dicta.</p>
               </div>
 
@@ -418,7 +404,7 @@
                 <div class="border-top pt-5">
                     <p>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This site is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Y2S</a>
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Powered by <a href="https://colorlib.com" target="_blank" >Y2S</a>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </p>
                 </div>
